@@ -1,56 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# TFG WEB3EDU por Jesus Ortin
 
-First, run the development server:
+Web desarrollada como parte práctica de mi Trabajo Final de Grado
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Instalación del proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+git clone https://github.com/jezuod/web3edu.git 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Tener instalado NodeJs y ejecutar el siguiente comando:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+node setup.js
 
-## Instalation nextjs (not necessary)
+# Web
 
-npx create-next-app@latest
+La web se encuentra desplegada con NextJs, el cual tiene integración con Vercel 
 
-## Instalation client OR JUST RUN node setup.js
+[Página web](https://web3edu-pi.vercel.app/)
 
-npm instal
+# Despliegue y prueba de smart contracts
 
-npm install ethers@5.6.1 --save
+[Repositorio del directorio](https://github.com/jezuod/web3)
 
-npm install react-router-dom --save
+Se usa [ThirdWeb](https://thirdweb.com/) para el despliegue de los contratos en la red
 
-npm install flowbite flowbite-react
-
-npm install -D postcss autoprefixer
-
-npm i dotenv
-
-npm install axios
-
-
-# How to deploy and devolop smart contracts into [thirdweb](https://thirdweb.com/)
-
-https://github.com/jezuod/web3
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## WEB
-
-https://web3edu-pi.vercel.app/
