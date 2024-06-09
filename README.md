@@ -37,6 +37,9 @@ npm i dotenv
 
 npm install axios
 
+# How to deploy and devolop smart contracts into [thirdweb](https://thirdweb.com/)
+
+https://github.com/jezuod/web3
 
 ## Deploy on Vercel
 
