@@ -20,22 +20,21 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Instalation web3_edu
-npx thirdweb@latest create --contract
-npm install dotenv
-crear .env y poner la clave privada de nuestra cuenta en metamask
-registrarse en alchemy, crear un sepolia rpc endpoint
-npm run deploy
-npm install @openzeppelin/contracts
-npm run publish --> seleccionar contratos
 
 ## Instalation client
+
 npx create-next-app@latest
+
 npm install ethers@5.6.1 --save
+
 npm install react-router-dom --save
+
 npm install flowbite flowbite-react
+
 npm install -D postcss autoprefixer
+
 npm i dotenv
+
 npm install axios
 
 
