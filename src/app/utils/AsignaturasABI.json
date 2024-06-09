@@ -1,0 +1,130 @@
+[
+    {
+      "type": "constructor",
+      "name": "",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "addProfesor",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_idAsignatura",
+          "internalType": "uint256"
+        },
+        {
+          "type": "address",
+          "name": "_Profesor",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "agregarAsignatura",
+      "inputs": [
+        {
+          "type": "string",
+          "name": "_nombre",
+          "internalType": "string"
+        },
+        {
+          "type": "address",
+          "name": "_profesor",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "checkAsignatura",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_idAsignatura",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "bool",
+          "name": "",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "contadorAsignaturas",
+      "inputs": [],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "deleteProfesor",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_idAsignatura",
+          "internalType": "uint256"
+        },
+        {
+          "type": "address",
+          "name": "_Profesor",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "obtenerAsignatura",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_idAsignatura",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        },
+        {
+          "type": "address[]",
+          "name": "",
+          "internalType": "address[]"
+        }
+      ],
+      "stateMutability": "view"
+    }
+  ]

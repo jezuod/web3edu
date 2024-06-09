@@ -1,0 +1,397 @@
+[
+    {
+      "type": "constructor",
+      "name": "",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "agregarAlumno",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "_nombre",
+          "internalType": "string"
+        },
+        {
+          "type": "uint256",
+          "name": "_anioNacimiento",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "_sexo",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "_primerApellido",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "_segundoApellido",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "agregarDireccionAutorizada",
+      "inputs": [
+        {
+          "type": "address",
+          "name": "_direccion",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "alumnos",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "nombre",
+          "internalType": "string"
+        },
+        {
+          "type": "uint256",
+          "name": "anioNacimiento",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "sexo",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "primerApellido",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "segundoApellido",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "checkAlumno",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "bool",
+          "name": "",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "direccionesAutorizadas",
+      "inputs": [
+        {
+          "type": "address",
+          "name": "",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "bool",
+          "name": "",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "eliminarDireccionAutorizada",
+      "inputs": [
+        {
+          "type": "address",
+          "name": "_direccion",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "modificarAnioNacimiento",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "uint256",
+          "name": "_anioNacimiento",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "modificarNombre",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "_nombre",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "modificarPrimerApellido",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "_primerApellido",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "modificarSegundoApellido",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "_segundoApellido",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "modificarSexo",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "_sexo",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "obtenerAlumno",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "nombre",
+          "internalType": "string"
+        },
+        {
+          "type": "uint256",
+          "name": "anioNacimiento",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "sexo",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "primerApellido",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "segundoApellido",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "obtenerAnioNacimiento",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "obtenerNombre",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "obtenerPrimerApellido",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "obtenerSegundoApellido",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "obtenerSexo",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "type": "address",
+          "name": "",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    }
+  ]

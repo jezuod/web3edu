@@ -1,0 +1,141 @@
+[
+    {
+      "type": "constructor",
+      "name": "",
+      "inputs": [
+        {
+          "type": "address",
+          "name": "_alumnosContrato",
+          "internalType": "address"
+        },
+        {
+          "type": "address",
+          "name": "_asignaturasContrato",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "event",
+      "name": "AlumnoMatriculado",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "niu",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "type": "uint256[]",
+          "name": "id_asignaturas",
+          "indexed": false,
+          "internalType": "uint256[]"
+        }
+      ],
+      "outputs": [],
+      "anonymous": false
+    },
+    {
+      "type": "function",
+      "name": "COSTO_ASIGNATURA",
+      "inputs": [],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "cambiarPrecioAsignaturas",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_precio",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "matricularAlumno",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        },
+        {
+          "type": "uint256[]",
+          "name": "_idAsignaturas",
+          "internalType": "uint256[]"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "bool",
+          "name": "",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "payable"
+    },
+    {
+      "type": "function",
+      "name": "matriculas",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "niu",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "obtenerAsignaturasMatriculadas",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_niu",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256[]",
+          "name": "",
+          "internalType": "uint256[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "retirarFondos",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    }
+  ]

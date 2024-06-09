@@ -1,0 +1,25 @@
+{
+    "11155111":
+    {
+        "Alumnos":
+        {
+            "address":"0xc863B7328AB85baD4F3bA4541C9C60Ee5DA945bA"
+        },
+        "Asignaturas":
+        {
+            "address":"0xF8cf88e3e2b1805a0ef048CB3F9C1aBFA355D971"
+        },
+        "Profesores":
+        {
+            "address":"0x29867813d20ceCFcbb2c5Ff1D6Ec31733c614005"
+        },
+        "NFT":
+        {
+            "address":"0xfb3f73d90b52539fa1b8e68a31f4944fb74697ee"
+        },
+        "Matricula":
+        {
+            "address":"0xfFA904D5928Bf7A9Dcd0807456977d32e5944C6b"
+        }
+    }
+}
