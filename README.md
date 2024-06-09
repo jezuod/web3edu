@@ -20,10 +20,13 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-
-## Instalation client
+## Instalation nextjs (not necessary)
 
 npx create-next-app@latest
+
+## Instalation client OR JUST RUN node setup.js
+
+npm instal
 
 npm install ethers@5.6.1 --save
 
@@ -36,6 +39,7 @@ npm install -D postcss autoprefixer
 npm i dotenv
 
 npm install axios
+
 
 # How to deploy and devolop smart contracts into [thirdweb](https://thirdweb.com/)
 
